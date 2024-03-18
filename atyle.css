@@ -1,0 +1,52 @@
+body{
+    position:relative;
+}
+h1{
+    color: blue;
+}
+div[class="parent"] {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    top:0;
+}
+body {
+    /* border: 1px solid; */
+}
+ul {
+   
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+.items {
+    border: 1px solid blue;
+    width: 60px;
+    height: 40px;
+    margin: 0;
+}
+.item1{
+    background-color: aquamarine;
+}
+.item2{
+    background-color: aquamarine;
+    
+}
+.item3{
+    background-color: rgb(255, 165, 127);
+    
+
+}
+.item4{
+    background-color: aquamarine;
+    
+}
+.item5{
+    background-color: aquamarine;
+    
+}

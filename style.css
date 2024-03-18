@@ -1,0 +1,70 @@
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+.my-label{
+    font-size: 18px;
+}
+
+.my-label2{
+    font-size: 18px;
+}
+
+.my-text, .my-button{
+    
+    height: 28px;
+    font-size: 18px;
+    padding: 3px 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    letter-spacing: 1px;
+    margin-top: 5px;
+    
+}
+
+.my-text:hover{
+    border: 1px solid rgb(254, 119, 119);
+}
+
+.my-button{
+    height: 35px;
+    background-color: rgb(106, 106, 106);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.my-button:hover{
+    background-color: rgb(4, 164, 4);
+}
+
+.holder{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15%;
+    gap: 15px;
+}
+
+.user-info{
+    display: flex;
+    /* position: absolute; */
+    flex-direction: column;
+
+}
+
+.under-bu{
+    font-size: 20px;
+    margin: 0px;
+    text-align: center;
+}
+
+.under-bu a{
+    text-decoration: none;
+    color: gray;
+}
+
+.under-bu a:hover{
+    color: green;
+}
